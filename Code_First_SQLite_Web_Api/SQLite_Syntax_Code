@@ -1,0 +1,25 @@
+INSERT INTO Players(ID,Tag,EnrollmentDate) VALUES(1,'Web','2019 08 29');
+GO;
+INSERT INTO Tournaments(TournamentID,Title,Credits) VALUES(1,'Web Developer Gige',50);
+GO;
+INSERT INTO Enrollments(EnrollmentID,CourseID,PlayerID,TournamentID) VALUES(1,2,1,1);
+GO;
+SELECT * FROM Players;
+GO;
+SELECT * FROM Tournaments;
+GO;
+SELECT * FROM Enrollments;
+GO;
+INSERT INTO Players(ID,Tag,EnrollmentDate) VALUES(2,'Programming','2019 08 29');
+GO;
+INSERT INTO Tournaments(TournamentID,Title,Credits) VALUES(2,'C# Developer Italiano',95);
+GO;
+INSERT INTO Enrollments(EnrollmentID,CourseID,PlayerID,TournamentID) VALUES(2,1,2,2);
+GO;
+SELECT * FROM Players;
+GO;
+SELECT * FROM Tournaments;
+GO;
+SELECT * FROM Enrollments;
+
+
